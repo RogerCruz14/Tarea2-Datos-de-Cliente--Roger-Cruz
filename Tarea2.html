@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Supermercado El Mayor</title>
+    <link href="tarea2.css" rel="stylesheet"/>
+    <body background="fondo.jpg"></body>
+</head>
+
+<script type="text/javascript">
+    var primer_saludo = "Hola, bienvenido al Supermercado El Mayor por favor de Registrese :D ";
+    var segundo_saludo = primer_saludo;
+    primer_saludo = "hello";
+    alert(segundo_saludo);
+</script>
+
+<center>
+    <br><h1> Bienvenido al supermercado "El Mayor" por favor registrese </h1></center><br>
+</center>
+
+<div class="padre">
+   <form id="form" class="form">
+<p>
+   <b> Nombre: </b>
+      <br><input type="text" name="nombre" autofocus required /> </br>
+</p>
+
+<p>
+    <b> Apellido: </b>
+      <br><input type="text" name="apellido" autofocus required /> </br> 
+ </p>
+
+ <p>
+    <b> Numero de C.I: </b>
+      <br><input type="text" name="Id" autofocus required /> </br>
+ </p>
+
+ <p>
+   <b>Fecha N: </b>
+      <br><input type="date" name="date_control"/> </br>
+   </p>
+
+ <p>
+    <b> Dirección: </b>
+    <br><input type="text" name="direc" autofocus required /> </br>
+ </p>
+
+ <p>
+    <b> Teléfono: </b>
+    <br><input type="text" name="celular" autofocus required /> </br> 
+ </p>
+
+ <p>
+    <b> Correo: </b>
+    <br><input type="text" name="coreo" autofocus required /> </br>
+ </p>
+
+ <p>
+    <b> Sexo: </b>
+    <br><input type="radio" name="sexo" value="H"/>  <b> Masculino </b> 
+         <input type="radio" name="sexo" value="M"/>  <b> Femenino </b> </br>
+ </p>
+
+ <p>
+    <b> Estado Civil: </b>
+    <br> <select name="estado" id="estado">
+         <option value="soltero"> Soltero </option>
+         <option value="casado"> Casado </option>
+ </select> </br>
+ </p>
+
+<center>
+ <p>
+     <button type="button" style="font-size: 18px;"> Enviar </button>
+ </p>
+</center>
+</div>
+</form>
+
+</html>
